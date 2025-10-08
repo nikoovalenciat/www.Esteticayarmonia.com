@@ -1,0 +1,361 @@
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet";
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #ffcbfc;
+    --text-color: #333;
+    --light-text: #666;
+
+ 
+}
+
+* {
+   
+}
+
+body {
+  font-family: 'Allura', cursive;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+ font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:  #333;
+}
+
+h2 {
+   
+}
+
+p {
+    font-size: 27px;
+    text-align: justify;
+}
+
+.main-header {
+    background-color: #ffffff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f9b0fc;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+    
+}
+
+.logo {
+ font-family: 'Allura', cursive;
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f8d7eb;
+}
+
+main {
+   
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    position: relative;
+
+    text-align: center;
+}
+
+section::before, section::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    
+   
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.about-content {
+    flex: 1 1 500px;
+    text-align: left;
+}
+
+.text-block {
+
+}
+
+.about-image {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.about-image img {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.quote-section {
+
+    position: relative;
+
+
+}
+
+
+.quote-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+
+.quote-content img {
+    max-width: 200px;
+    margin-bottom: 2rem;
+}
+
+.quote-text-container {
+ 
+    background-color: var(--primary-color);
+   
+}
+
+.quote-text {
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.services-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+     border-bottom: 1px solid #f9b0fc;
+
+}
+
+.services-intro img {
+    max-width: 150px;
+    height: auto;
+    
+}
+
+.services-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.services-text p {
+    text-align: center;
+
+}
+
+.services-grid {
+    padding-top: 2rem;
+}
+
+.service-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.service-card {
+    background-color:  #f8d7eb;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-card h3 {
+   font-family: 'Italianno';cursive;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-image-box {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.card-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nutrition-section {
+  
+  background-color: #f8d7eb; 
+  padding: 20px;           
+  border-radius: 15px;     
+  margin: 15px;             
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+ 
+}
+    
+
+
+.nutrition-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.nutrition-image-box {
+    max: width 80px;
+    width: 100%;
+      text-align: center;
+}
+
+.nutrition-image-box img {
+   width:40%;
+    height:40%;
+border-radius: 15px; 
+      text-align: center;
+}
+
+.nutrition-content p {
+    text-align: justify;
+    max-width: 600px;
+
+
+}
+
+.contact-section {
+
+    background-color: var(--primary-color);
+    padding: 4rem 2rem;
+    border-radius: 10px;
+
+
+}
+
+.contact-section h2, .contact-section p {
+
+
+    color: var(--secondary-color);
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+
+}
+
+.contact-info {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #f8d7eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-info h3 {
+   font-family: 'Italianno', cursive;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.contact-info p {
+    color: var(--light-text);
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content, .about-image {
+        flex: 1 1 100%;
+    }
+
+    .services-grid {
+        flex-direction: column;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .contact-info-container {
+        flex-direction: column;
+    }
+
+    .about-content, .nutrition-content, .contact-section {
+        padding: 0;
+    }
+
+    .about-image {
+        padding: 0;
+    }
+}
